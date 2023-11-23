@@ -1,0 +1,13 @@
+-trong Javascript cos 3 cách khai báo biến
++sử dụng từ khóa var:-có thể khai báo và gán lại giá trị
+                    -có cơ chế hosting (cẩu lên):khi 1 file .js được thực thi thì code sẽ được chạy từ trên xuống
+                    khi đó nó sẽ quét xem file js đó có biến nào được khai báo với từ khóa var k nếu có nó sẽ đưa phần khai
+                    báo lên trên đầu tuy nhiên giá trị mà js nhận được lại là undefined
+                    - phạm vi hoạt động của nó là toàn cục
+
++sử dụng từ khóa let:- có thế gán lại giá trị tuy nhiên không thể khai báo lại
+
++sử dụng từ khóa const - không thể gán lại giá trị và khai báo lại
+                        -không chứa context (bổ từ khóa this)
+// toán tử 3 ngôi
+//cú pháp :(điều kiện)?(giá trị đúng):(giá trị sai)
